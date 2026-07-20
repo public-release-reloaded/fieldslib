@@ -12,7 +12,7 @@ build: [
 ]
 depends: [
   "ocaml" {>= "5.5.0"}
-  "base"
+  "base" {>= "v0.18~" & < "v0.19~"}
   "dune" {>= "3.17.0"}
 ]
 available: arch != "x86_32"
